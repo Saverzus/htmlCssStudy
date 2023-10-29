@@ -1,0 +1,24 @@
+html {
+    box-sizing: border-box;
+    position: relative;
+    overflow-x: hidden;
+}
+
+*, *::before, *:after {
+    box-sizing: inherit;
+}
+
+.main__preview-container-whats-we-create-list-item {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    position: relative;
+    padding: 0px 0px 0px 40px;
+}
+
+.main__preview-container-whats-we-create-list-item:before {
+    content: '312';
+    position: absolute;
+    left: 0px;
+    top: 20px;
+}
